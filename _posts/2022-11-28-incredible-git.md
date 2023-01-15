@@ -16,4 +16,4 @@ git commit --amend -m "an updated commit message"
 
 Another cool action that I learned is **git stash** which temporarily shelves changes you’ve made to your working copy so you can work on something else, and then come back and re-apply them later on. It’s useful when you are in the middle of something and need to quickly switch to another context to work on for a while.
 
-![jscode](/assets/images/jscode.png))
+![jscode](/assets/images/jscode.png)
