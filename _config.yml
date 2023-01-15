@@ -1,7 +1,7 @@
 # Setup
 title: Negar's
 tagline: "Coding Journey"
-description: 'A personal coding diary sharing daily musings, challenges, and solutions from a developer's journey of learning and growth.' 
+description: 'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url: https://negarbaharmand.com/
 baseurl: ""
 paginate: 5
