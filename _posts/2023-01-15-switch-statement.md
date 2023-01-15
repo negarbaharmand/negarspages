@@ -1,6 +1,6 @@
 ---
 title: How to use switch statement in JavaScript and emulate it in Python?
-date: 2023-02-15 09:00:00 +0100
+date: 2023-01-15 09:00:00 +0100
 categories: [Conditionals, Python, JavaScript]
 tags: [js, python] # TAG names should always be lowercase
 ---
