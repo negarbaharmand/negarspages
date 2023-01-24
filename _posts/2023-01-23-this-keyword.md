@@ -1,5 +1,5 @@
 ---
-title: What I learnt today (WILT): "this" keyword in JavaScript
+title: What I learnt today:"this" keyword in JavaScript
 date: 2023-01-23 09:00:00 +0100
 categories: [JavaScript]
 tags: [javascript, wilt] # TAG names should always be lowercase
@@ -49,3 +49,5 @@ The result would be shown as this:
 ```
 Window {window: Window, self: Window, document: document, name: '', location: Location, …}
 ```
+
+We should also be aware that If we use "this" inside an arrow function it's going to address the global window object, not our object! So, to use "this" inside a method to refer to the actual object that the method is on, we need to use a regular function and not an arrow function.
