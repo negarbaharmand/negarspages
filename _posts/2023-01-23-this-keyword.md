@@ -1,5 +1,5 @@
 ---
-title: What I learnt today:"this" keyword in JavaScript
+title: TIL "this" keyword in JavaScript
 date: 2023-01-23 09:00:00 +0100
 categories: [JavaScript]
 tags: [javascript, wilt] # TAG names should always be lowercase
