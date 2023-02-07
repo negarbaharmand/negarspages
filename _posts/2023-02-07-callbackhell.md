@@ -1,5 +1,5 @@
 ---
-title: Call back hell and promise chaining
+title: Call back hell and Promise chaining
 date: 2023-02-07 09:00:00 +0100
 categories: [JavaScript]
 tags: [javascript, promises] # TAG names should always be lowercase
