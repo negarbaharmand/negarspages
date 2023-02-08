@@ -5,7 +5,7 @@ categories: [JavaScript]
 tags: [javascript, promises] # TAG names should always be lowercase
 ---
 
-In asynchronous programming it happens that we need to nest callbacks within a function which is called a callback hell. In short, first we execute task 1, we get the result and task 2 needs to depend on result 1 to start its execution. Similarly, unless result 2 is produced we can't execute task 3. This leads to the chaining of tasks from 1 to 4, which creates a set of nested callbacks.
+In asynchronous programming it happens that we need to nest callbacks within a function which is called a callback hell. In short, first we execute the first task, we get the result and task 2 needs to depend on result 1 to start its execution. Similarly, unless result 2 is produced we can't execute task 3. This leads to the chaining of tasks from 1 to 3, which creates a set of nested callbacks.
 The problem is that this pyramid shaped set of codes is very difficult to follow and maintain. It kinda looks like this:
 
 ```JavaScript
@@ -20,9 +20,9 @@ getTodos("todos/luigi.json", (err, data) => {
 });
 ```
 
-There are different solutions for avoiding callback hells such as using Promises and Using Async/await.
+There are different solutions for avoiding callback hells such as using Promises or Async/await.
 The idea of promise chaining is that the result is passed through the chain of .then handlers.
-Our callback hell implemented by promises is gonna look like this which is way more readable and cleaner:
+Our callback hell implemented by promises is going to look like this which is way more readable and cleaner:
 
 ```JavaScript
 getTodos("todos/luigi.json")
