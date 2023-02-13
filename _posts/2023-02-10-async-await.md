@@ -16,24 +16,19 @@ This is simply how Async and Await works:
 
 - With using async and await we don’t use .then inside our asyncronous function where we are doing all of our promise chainings but we still need to do it once when we call an asyncronous function because it returns a promise and we don’t want it to be blocking.
 
-```JavaScript
+```javascript
 const getTodos = async (recourse) => {
   const res = await fetch(recourse);
   const data = await res.json();
   return data;
 };
-getTodos("todos/luigi.json")
-.then((data) => {
+getTodos("todos/luigi.json").then((data) => {
   console.log("Success", data);
 });
-getTodos("todos/shaun.json")
-.then((data) => {
+getTodos("todos/shaun.json").then((data) => {
   console.log("Success", data);
 });
-getTodos("todos/mario.json")
-.then((data) => {
+getTodos("todos/mario.json").then((data) => {
   console.log("Success", data);
 });
-
-
 ```
