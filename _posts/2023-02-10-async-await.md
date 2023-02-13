@@ -1,5 +1,5 @@
 ---
-title: TIL Writing more readable promises using async and await
+title: Writing more readable promises using async and await
 date: 2023-02-10 09:00:00 +0100
 categories: [JavaScript]
 tags: [javascript, promises] # TAG names should always be lowercase
