@@ -34,6 +34,23 @@ getTodos("todos/mario.json").then((data) => {
 });
 ```
 
+Or
+
+```javascript
+const getTodos = async () => {
+  const res = await fetch("todos/luigi.json");
+  const data = await res.json();
+  console.log(data);
+  const res1 = await fetch("todos/shaun.json");
+  const data1 = await res1.json();
+  console.log(data1);
+  const res2 = await fetch("todos/mario.json");
+  const data2 = await res2.json();
+  console.log(data);
+};
+getTodos();
+```
+
 - What have async and await acheived for us?
 
 1. It has bundled up all of our asyncronous code inside a function which we can call and use whenever we want.
