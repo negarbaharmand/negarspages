@@ -9,7 +9,7 @@ In JavaScript, the "this" keyword is used to refer to the current object. It can
 It is also used to refer to the object that a function is a method of. It provides a way to access the object from within the function.
 In the code below "this" refers to the object "user":
 
-```JavaScript
+```javascript
 let user = {
   name: "Negar",
   age: 32,
@@ -34,14 +34,13 @@ name: "Negar"
 
 But if we use "this" out of the scope :
 
-```JavaScript
+```javascript
 let user = {
   name: "Negar",
   age: 32,
   email: "ngdezfouli@gmail.com",
 };
 console.log(this);
-
 ```
 
 The result would be shown as this:
