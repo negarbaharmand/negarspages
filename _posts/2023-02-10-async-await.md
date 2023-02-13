@@ -1,5 +1,5 @@
 ---
-title:TIL Async and Await
+title: TIL Async and Await
 date: 2023-02-10 09:00:00 +0100
 categories: [JavaScript]
 tags: [javascript, promises] # TAG names should always be lowercase
@@ -15,6 +15,7 @@ This is simply how Async and Await works:
 - As json method returns a promise we can again use the await keyyword to chain this promise.
 
 - With using async and await we don’t use .then inside our asyncronous function where we are doing all of our promise chainings but we still need to do it once when we call an asyncronous function because it returns a promise and we don’t want it to be blocking.
+- Here you can see the example code from the last post written using Async and Await:
 
 ```javascript
 const getTodos = async (recourse) => {
@@ -32,3 +33,9 @@ getTodos("todos/mario.json").then((data) => {
   console.log("Success", data);
 });
 ```
+
+- What have async and await acheived for us?
+
+1. It has bundled up all of our asyncronous code inside a function which we can call and use whenever we want.
+2. It’s an asyncronous function so it’s not going to block the rest of the code in our application.
+3. It gives us a much cleaner way to chain promises together which is much more readable.
