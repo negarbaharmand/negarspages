@@ -24,5 +24,5 @@ const ACTIONS = {
 I created two components to make the buttons: DigitButton and OperationButton, so I could call my reducer function for the onClick event.
 Suppose you’re interested in checking out all the logic and conditions behind the operations and trying out the calculator. In that case, feel free to find the code on GitHub from the link below and follow the instructions in the README file to get started.
 
-[ToDo-React App](https://github.com/negarbaharmand/react-calculator.git)
+[Calculator React App](https://github.com/negarbaharmand/react-calculator.git)
 ![projects github page](/assets/images/calculator-github.png)
