@@ -1,5 +1,5 @@
 ---
-title: City Forecast: A React Weather App
+title: City Forecast A React Weather App
 date: 2023-05-30 09:23:00 +0200
 categories: [JavaScript, React]
 tags: [javascript, react, axios, api] # TAG names should always be lowercase
