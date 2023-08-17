@@ -1,15 +1,35 @@
 ---
-title: JAVA ArrayList Class
-date: 2023-06-15 10:02:00 +0200
-categories: [JAVA, Array]
-tags: [java, array, method] # TAG names should always be lowercase
+title: TIL Encapsulation:Your Code's Protective Capsule
+date: 2023-07-10 10:32:00 +0200
+categories: [JAVA, OOP]
+tags: [java, oop, object] # TAG names should always be lowercase
 ---
 
-In this blog post, I am excited to introduce City Forecast, a weather application that I had the opportunity to develop using React and incorporate with Axios. City Forecast aims to be a user-friendly solution for accessing real-time weather information for cities worldwide. By leveraging the capabilities of the OpenWeather API, the app provides users with accurate weather data, including temperature, weather conditions, and more. City Forecast offers a delightful weather forecasting experience with its intuitive interface and seamless functionality.
-To create City Forecast, I integrated Axios to handle HTTP requests and retrieve data from the OpenWeather API in an efficient and organized manner.
-To experience City Forecast firsthand, you can visit the deployed version on GitHub Pages:
-[CityForecast](https://negarbaharmand.github.io/cityForecast/)
+![Capsule](/assets/images/capsule.jpg)
 
-![App overview](/assets/images/cityForecast.png)
+Let's talk about a super useful concept in Java programming: encapsulation. It might sound fancy, but it's like giving your code a protective capsule, just like the one around medicine.
 
-To delve deeper into the project and access the source code, feel free to visit the GitHub repository: [City Forecast GitHub Repository](https://github.com/negarbaharmand/cityForecast)
+Imagine you have a special capsule that holds a secret gem. You don't want anyone touching or changing the gem, right? In Java, you can achieve this protection using something called getters and setters. Think of getters as a way to "get" information, and setters as a way to "set" or change it. This way, you control how your gem is accessed and modified.
+
+Here's a simple example to help you grasp the idea:
+
+```java
+public class GemCapsule {
+    private String secretGem;
+
+    public String getSecretGem() {
+        return secretGem;
+    }
+
+    public void setSecretGem(String newGem) {
+        secretGem = newGem;
+    }
+}
+
+```
+
+In this example, the secretGem is safely hidden inside the GemCapsule class. But you can still get its value using the getSecretGem method and change it using the setSecretGem method. This way, you're like the gatekeeper, controlling who accesses and modifies the gem.
+
+This is a lot like how a capsule protects medicine. You can't just grab the medicine directly; you have to follow the instructions on the label. Encapsulation works similarly by providing controlled access to your code's important parts. It's like a security barrier that ensures your code stays solid and secure.
+
+So, remember, encapsulation is your code's protective capsule. It guards your data, controls how it's used, and makes your code more organized. Happy coding!
