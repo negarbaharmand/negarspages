@@ -1,5 +1,5 @@
 ---
-title: TIL Discovering Java's OOP Magic: Abstract and Interface Made Simple
+title: "TIL Discovering Java's OOP Magic: Abstract and Interface Made Simple"
 date: 2023-07-20 09:32:00 +0200
 categories: [JAVA, OOP]
 tags: [java, oop, object] # TAG names should always be lowercase
