@@ -1,5 +1,5 @@
 ---
-title: TIL Encapsulation:Your Code's Protective Capsule
+title: "TIL Encapsulation: Your Code's Protective Capsule"
 date: 2023-07-10 10:32:00 +0200
 categories: [JAVA, OOP]
 tags: [java, oop, object] # TAG names should always be lowercase
