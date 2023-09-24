@@ -5,6 +5,8 @@ categories: [JAVA, Collections]
 tags: [java, collections] # TAG names should always be lowercase
 ---
 
+![List](/assets/images/list1.jpg)
+
 Hey there, fellow Java enthusiasts!👩🏻‍💻
 Today, I want to share a little discovery I made on my Java learning journey - the battle of ArrayList vs. LinkedList.
 
@@ -54,5 +56,4 @@ In this example, we've created both ArrayList and LinkedList instances, added, a
 
 So, the next time you're working on a Java project and faced with the ArrayList vs. LinkedList dilemma, remember this post. Choose the data structure that suits your specific needs, and you'll be well on your way to writing more efficient and optimized code.
 
-![List](/assets/images/list.jpg)
-P.S. - I know the photo is a bit off-topic, but just like in coding, a little humor can make even the most complex algorithms easier to digest. 😄 Happy coding and happy travels! 🚀✈️
+![List](/assets/images/list3.jpg)
