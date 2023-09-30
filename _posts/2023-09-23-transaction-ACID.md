@@ -15,7 +15,7 @@ Now, let's explore the crucial ACID properties that guarantee database integrity
 
 1. Atomicity: Transactions are all-or-nothing, ensuring that either all operations succeed or none at all. For instance, transferring money between bank accounts must either be completed fully or not at all.
 2. Consistency: Data must transition from one valid state to another after a transaction. Any violation of predefined rules results in a rollback, preventing erroneous data.
-3. Concurrent transactions should not interfere with each other, ensuring data integrity, especially in multi-user environments.
+3. Isolation: Concurrent transactions should not interfere with each other, ensuring data integrity, especially in multi-user environments.
 4. Durability: Once committed, transaction effects are permanent, surviving system failures like crashes or power outages.
 
 ### Real-world Applications of ACID:
