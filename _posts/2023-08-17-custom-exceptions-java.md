@@ -1,6 +1,6 @@
 ---
 title: "Unlocking the Power of Custom Exceptions in Java"
-date: 2023-09-10 09:32:00 +0200
+date: 2023-08-17 09:32:00 +0200
 categories: [JAVA, Exception]
 tags: [java, exception] # TAG names should always be lowercase
 ---
