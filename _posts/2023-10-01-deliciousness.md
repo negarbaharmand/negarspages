@@ -5,7 +5,7 @@ categories: [JavaScript, React, API]
 tags: [javascript, react] # TAG names should always be lowercase
 ---
 
-Hello there! I'm excited to introduce you to my latest project, Deliciousness, a multipage **React app** that combines my love for coding and food recipes. As a junior-level developer, I'm constantly learning and experimenting, and this app is a testament to my journey. You can check out the app repository on GitHub [here](https://github.com/negarbaharmand/deliciousness.git) and try it live [here](https://negarbaharmand.github.io/deliciousness/).
+Hello there! I'm excited to introduce you to one of my latest projects, Deliciousness, a multipage **React app** that combines my love for coding and food recipes. As a junior-level developer, I'm constantly learning and experimenting, and this app is a testament to my journey. You can check out the app repository on GitHub [here](https://github.com/negarbaharmand/deliciousness.git) and try it live [here](https://negarbaharmand.github.io/deliciousness/).
 ![App overview](/assets/images/deliciousness-page-overview.png)
 
 Deliciousness is structured into two main packages: "component" and "pages." This design choice reflects the separation of concerns and modularity, making the app easier to manage and extend as it grows.
