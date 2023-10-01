@@ -1,6 +1,6 @@
 ---
 title: Calculator React App
-date: 2023-11-01 08:00:00 +0200
+date: 2023-10-01 08:00:00 +0200
 categories: [JavaScript, React]
 tags: [javascript, react] # TAG names should always be lowercase
 ---
