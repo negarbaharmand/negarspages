@@ -1,6 +1,6 @@
 ---
 title: "TIL Database Transactions and ACID Principles!"
-date: 2023-09-23 11:56:00 +0200
+date: 2023-09-27 11:56:00 +0200
 categories: [JAVA, Database, MySQL, SQL]
 tags: [java, database, mysql, sql] # TAG names should always be lowercase
 ---
