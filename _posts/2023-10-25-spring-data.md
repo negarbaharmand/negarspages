@@ -5,15 +5,15 @@ categories: [Java, Spring, Data]
 tags: [java, spring, database] # TAG names should always be lowercase
 ---
 
-Today, I'd like to talk about Spring Data JPA, a practical tool that made my database-related tasks feel like a walk in the park.
+Today, I'd like to talk about Spring Data JPA, a practical tool that makes the database-related tasks feel like a walk in the park.
 
-One of the most incredible things about Spring Data JPA is how it simplifies how we interact with databases, and it all starts with repositories.
+One of the most incredible things about Spring Data JPA is how it simplifies the interaction with databases, and it all starts with repositories.
 
-In traditional Java applications, you might have encountered the concept of a Data Access Object (DAO) layer. DAOs are like gatekeepers that handle database interactions. You'd write many lines of boilerplate code to perform basic Create, Read, Update, and Delete (CRUD) operations. It was effective but often felt repetitive and unmanageable.
+In traditional Java applications, you might have encountered the concept of a **Data Access Object (DAO)** layer. DAOs are like gatekeepers that handle database interactions. You'd write many lines of boilerplate code to perform basic Create, Read, Update, and Delete **(CRUD)** operations. It was effective but often felt repetitive and unmanageable.
 
 **But here's where Spring Data JPA revolutionizes the game.**
 
-With Spring Data JPA, we can bid farewell to much of the boilerplate code that DAOs require. Instead of defining all those standard CRUD operations related to an entity's primary key(save, findById(ID id), findAll(), ...) ourselves, we can leverage the power of the JpaRepository interface provided by Spring Data JPA. It's like having a treasure chest of pre-built methods for talking to the database.
+With Spring Data JPA, we can bid farewell to much of the boilerplate code that **DAO**s require. Instead of defining all those standard **CRUD** operations related to an entity's primary key(save, findById(ID id), findAll(), ...) ourselves, we can leverage the power of the JpaRepository interface provided by Spring Data JPA. It's like having a treasure chest of pre-built methods for talking to the database.
 
 ### Crafting Custom Queries with Spring Data JPA
 
