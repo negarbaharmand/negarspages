@@ -15,11 +15,9 @@ author:
 
 # Gems
 plugins:
-  - jekyll-paginate
+  - jekyll-remote-theme
 # Custom vars
 # version: 1.1.0
 # google_analytics_id: #UA-XXXX-Y
 
 remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
