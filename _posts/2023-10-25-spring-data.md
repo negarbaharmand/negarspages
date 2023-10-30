@@ -19,10 +19,9 @@ With Spring Data JPA, we can bid farewell to much of the boilerplate code that D
 
 However, sometimes we need to go beyond the basics and retrieve data in more specific ways. That's where crafting custom queries comes into play. Spring Data JPA provides us with the flexibility to express our unique data retrieval needs and empowers us to create custom query methods.
 
-#### Let's explore a few examples:
+#### Here we have an example:
 
-Creating a Custom Query
-Suppose you want to find students whose first name matches a provided value. With the JpaRepository, it's as straightforward as defining a method in your repository interface:
+Suppose you want to find students whose first name matches a provided value. With the JpaRepository, it's as straightforward as defining a method in the repository interface:
 
 ```Java
 List<Student> findByFirstName(String firstName);
@@ -35,6 +34,6 @@ SELECT * FROM Student WHERE first_name = ?;
 ```
 
 The method name findByFirstName precisely corresponds to the firstName attribute in the Student entity. Spring Data JPA understands this naming convention and generates SQL queries accordingly. In this case, it would create a query to retrieve students whose first name matches the provided value. The magic lies in the naming convention!
-The method name reflects your query's criteria precisely, allowing you to express your data retrieval needs in a clear and concise manner.
+The method name reflects the query's criteria precisely, allowing us to express our data retrieval needs in a clear and concise manner.
 
-Using this naming convention not only makes your code more readable but also reduces the need for writing explicit query statements or SQL code. Spring Data JPA takes care of the translation from method names to SQL queries, making your coding journey much more straightforward.
+Using this naming convention not only makes the code more readable but also reduces the need for writing explicit query statements or SQL code. Spring Data JPA takes care of the translation from method names to SQL queries, making the coding journey much more straightforward.
